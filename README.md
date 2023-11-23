@@ -1,5 +1,4 @@
-![Selenium e LinkedIn logos](https://github.com/Romano-g/Linkedin-Selenium/assets/143983377/1db4d748-0e95-400d-96f0-d3297f14d0cb)
-
+![LinkedIn e Selenium logos](https://github.com/Romano-g/Linkedin-Selenium/assets/143983377/d655eb4e-1afd-47bb-ab37-cac8fa6c39a7)
 
 # Linkedin-Selenium
  
