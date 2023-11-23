@@ -1,4 +1,3 @@
-import email
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -136,5 +135,3 @@ while True:
         .key_down(Keys.RETURN)\
         .key_up(Keys.RETURN)\
         .perform()
-    
-    time.sleep(randint(1, 5))
