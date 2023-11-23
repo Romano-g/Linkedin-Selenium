@@ -88,6 +88,39 @@ pessoas.click()
 
 time.sleep(randint(1, 5))
 
+filtro = WebDriverWait(driver, 10).until(
+    expected_conditions.element_to_be_clickable(
+        (By.XPATH, '//button[text()="Conexões"]')
+    )
+)
+
+filtro.click()
+
+time.sleep(randint(1, 5))
+
+filtro_2 = driver.find_element(By.ID, "network-S")
+
+ActionChains(driver)\
+    .click(filtro_2)\
+    .perform()
+
+    
+ActionChains(driver)\
+    .key_down(Keys.TAB)\
+    .key_up(Keys.TAB)\
+    .pause(randint(1, 2))\
+    .key_down(Keys.TAB)\
+    .key_up(Keys.TAB)\
+    .pause(randint(1, 2))\
+    .key_down(Keys.TAB)\
+    .key_up(Keys.TAB)\
+    .pause(randint(1, 2))\
+    .key_down(Keys.RETURN)\
+    .key_up(Keys.RETURN)\
+    .perform()
+
+time.sleep(randint(1, 5))
+
 while True:
     ActionChains(driver)\
         .key_down(Keys.TAB)\
