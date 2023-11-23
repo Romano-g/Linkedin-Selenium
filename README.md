@@ -2,7 +2,7 @@
 
 # Linkedin-Selenium
  
-Neste repositório automatizei a função de adicionar pessoas e aumentar meu network no LinkedIn com o uso da biblioteca de WebScraping "Selenium", em conjunto com a linguagem Python.
+Neste repositório automatizei a função de adicionar pessoas e aumentar meu network no LinkedIn com o uso da biblioteca de WebScraping **"Selenium"**, em conjunto com a linguagem Python.
 
 ## Funcionalidade:
 
